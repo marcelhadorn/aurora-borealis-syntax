@@ -9,11 +9,11 @@ atom-text-editor, :host {
   }
 
   .indent-guide {
-    color: @syntax-indent-guide-color;
+    color: darken(@very-dark-gray, 5);
   }
 
   .invisible-character {
-    color: @syntax-invisible-character-color;
+    color: darken(@very-dark-gray, 5) !important;
   }
 
   .gutter {
@@ -317,4 +317,14 @@ atom-text-editor[mini] .scroll-view,
 .pane,
 .tool-panel {
     border-color: darken(@very-dark-gray, 3) !important;
+}
+
+.indent-guide-improved {
+  background-color: darken(@very-dark-gray, 5);
+  &.indent-guide-stack {
+    background-color: @orange;
+    &.indent-guide-active {
+      background-color: @purple;
+    }
+  }
 }
