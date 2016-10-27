@@ -1,7 +1,7 @@
 {
   "name": "aurora-borealis-syntax",
   "theme": "syntax",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "A pretty Atom syntax theme based on Aurora Borealis colours",
   "repository": {
     "type": "git",
@@ -11,16 +11,13 @@
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "readme": "# Chester\n\nA syntax highlighting theme for the [Atom text editor](https://atom.io/) whose colours are totally\nnot ripped off from Lonely Planet's [Rizzo](https://github.com/lonelyplanet/rizzo) styles and what\ndo you even mean oh no please don't sue me.\n\nThere is also a corresponding colour scheme for the iTerm2 terminal emulator: [csutter/chester-iterm2-colors](https://github.com/csutter/chester-iterm2-colors).\n\n### Screenshot\n\n![Screenshot](https://raw.githubusercontent.com/csutter/chester-atom-syntax/master/screenshot.png)\n",
+  "readme": "Aurora Borealis Syntax Theme",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/csutter/chester-atom-syntax/issues"
+    "url": "https://github.com/marc3llo/aurora-borealis-syntax/issues"
   },
-  "homepage": "https://github.com/csutter/chester-atom-syntax#readme",
-  "_id": "chester-atom-syntax@0.1.1",
-  "_shasum": "e44924b134ae73963bd8520ce05ea9a6f6a4958c",
-  "_resolved": "file:../d-1151027-3411-moh078/package.tgz",
-  "_from": "../d-1151027-3411-moh078/package.tgz",
+  "homepage": "https://github.com/marc3llo/aurora-borealis-syntax#readme",
+  "_id": "aurora-borealis-syntax@0.1.0",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
